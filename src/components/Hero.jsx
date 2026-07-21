@@ -63,7 +63,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="glass-card"
             onClick={() => setIsProjectsExpanded(!isProjectsExpanded)}
-            style={{ position: 'absolute', left: '10%', top: '20%', padding: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1rem', background: 'rgba(255,255,255,0.4)', cursor: 'pointer', maxWidth: '200px', zIndex: 3 }}
+            style={{ position: 'absolute', left: '10%', top: '-20px', padding: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1rem', background: 'rgba(255,255,255,0.4)', cursor: 'pointer', maxWidth: '200px', zIndex: 3 }}
           >
             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
               <div style={{ background: 'var(--accent-yellow)', minWidth: '50px', height: '50px', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 900, fontSize: '1.5rem' }}>
@@ -118,7 +118,7 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
             className="glass-card"
-            style={{ position: 'absolute', right: '10%', top: '30%', padding: '1.5rem', background: 'rgba(255,255,255,0.4)', width: '220px', zIndex: 3 }}
+            style={{ position: 'absolute', right: '10%', top: '20px', padding: '1.5rem', background: 'rgba(255,255,255,0.4)', width: '220px', zIndex: 3 }}
           >
             <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '1rem', fontWeight: 700, fontSize: '1rem' }}>
               {heroSkills.map((skill, index) => (
